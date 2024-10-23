@@ -10,7 +10,7 @@
 }
 
 .hero-bg {
-    background-image: url(/image/header-bg.png);
+    background-image: url(../image/header-bg.png);
     border-radius: 8px;
     width: 1275px;
     height: 597px;
