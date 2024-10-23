@@ -1,0 +1,51 @@
+@import"./header.css";
+@import"./hero.css";
+@import"./products.css";
+@import"./favorite.css";
+@import"./cards.css";
+@import"./footer.css";
+@import"./shop.css";
+@import"./related.css";
+@import"./last-shop.css";
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body {
+    font-family: "inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+
+h1 h2 h3 h4 h5 h6 p {
+    margin: 0;
+    font-size: inherit;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    border: none;
+    display: inline-block;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 1320px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
